@@ -20,7 +20,7 @@ public class Moon {
 
         // Display the lunch menu options
         for (int i = 0; i < foodMenu.length; i++) {
-            System.out.println("상용이가 좋아하는 점심 메뉴1: " + foodMenu[i]);
+            System.out.println("상용이가 좋아하는 점심 메뉴01: " + foodMenu[i]);
         }
 
         // Close the scanner after input and processing is complete
