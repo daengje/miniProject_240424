@@ -9,9 +9,17 @@ public class lunchlaunch {
 		Scanner scanner = new Scanner(System.in);
 		
 		String[] strarray = new String[5];
-		strarray[]
 		
-	
+		
+		
+		for (int i = 0; i < strarray.length; i++) {
+			strarray[i] = scanner.next();
+			System.out.println("좋아하는 점심메뉴" + strarray[i]);
+		}
+			
+		for (int i = 0; i < strarray.length; i++) {
+			System.out.println("점매추 :" + strarray[i]);
+		}
 	}
 
 }
